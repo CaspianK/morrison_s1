@@ -1,5 +1,5 @@
 body {
-  background-color: #2e1d4e;
+  background-color: #1d4e40;
   display: grid;
   place-items: center;
   height: 100vh;
@@ -7,7 +7,7 @@ body {
 
 form {
   padding: 20px;
-  background-color: rgb(37, 0, 44);
+  background-color: rgb(0, 44, 23);
   color: white;
   display: flex;
   flex-direction: column;
@@ -35,11 +35,11 @@ input:focus {
 }
 
 input::placeholder {
-  color: rgb(114, 63, 124);
+  color: rgb(63, 124, 96);
 }
 
 button {
-  background-color: rgb(143, 94, 143);
+  background-color: rgb(94, 143, 110);
   padding: 10px;
   font-size: 1.2em;
   color: white;
