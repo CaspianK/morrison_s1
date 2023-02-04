@@ -1,0 +1,50 @@
+body {
+  background-color: #2e1d4e;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+form {
+  padding: 20px;
+  background-color: rgb(37, 0, 44);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0;
+}
+
+form > * {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 1px solid white;
+  font-size: 1.2em;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: rgb(114, 63, 124);
+}
+
+button {
+  background-color: rgb(143, 94, 143);
+  padding: 10px;
+  font-size: 1.2em;
+  color: white;
+}
+
+#hide {
+  display: none;
+}
